@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lahoucine Jakoum | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #0b0f19;
+            color: #e2e8f0;
+            font-family: 'JetBrains Mono', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: #111827;
+            border: 1px solid #1f2937;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+        .terminal-header { font-size: 0.9rem; color: #38bdf8; margin-bottom: 20px; }
+        .title { font-size: 1.8rem; font-weight: 700; color: #ffffff; margin-bottom: 5px; letter-spacing: -1px; }
+        .subtitle { font-size: 0.95rem; color: #94a3b8; margin-bottom: 25px; }
+        .bio-box {
+            background: #1f2937;
+            border-left: 3px solid #38bdf8;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+        .links-list { display: flex; flex-direction: column; gap: 12px; }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1f2937;
+            color: #ffffff;
+            padding: 12px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            border: 1px solid #374151;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #38bdf8;
+            color: #0b0f19;
+            border-color: #38bdf8;
+            transform: translateY(-2px);
+        }
+        .footer { text-align: center; margin-top: 30px; font-size: 0.75rem; color: #64748b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="terminal-header">root@lahoucine-jkm:~# whoami</div>
+        <h1 class="title">LAHOUCINE JAKOUM</h1>
+        <p class="subtitle">Cybersecurity Analyst & Developer</p>
+        <div class="bio-box">
+            > 17 y/o Cybersecurity Student & Founder @ ATLAS-GUARD.<br>
+            > Specialized in Detection Engineering, Python Automation & AI Security.
+        </div>
+        <div class="links-list">
+            <a href="https://github.com/houssaynjacoum91-hue" target="_blank" class="btn">
+                <span>⚡ GitHub Profile</span><span>-></span>
+            </a>
+            <a href="https://github.com/houssaynjacoum91-hue/ATLAS_GUARD" target="_blank" class="btn">
+                <span>🛡️ ATLAS-GUARD (SaaS)</span><span>-></span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="btn">
+                <span>💼 LinkedIn</span><span>-></span>
+            </a>
+        </div>
+        <div class="footer">root@lahoucine-jkm:~# connection secured.</div>
+    </div>
+</body>
+</html>
